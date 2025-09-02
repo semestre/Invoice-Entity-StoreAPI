@@ -1,0 +1,11 @@
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\bin\Debug\net9.0\StoreAPI.Models.deps.json
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\bin\Debug\net9.0\StoreAPI.Models.dll
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\bin\Debug\net9.0\StoreAPI.Models.pdb
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\StoreAPI.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\StoreAPI.Models.AssemblyInfoInputs.cache
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\StoreAPI.Models.AssemblyInfo.cs
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\StoreAPI.Models.csproj.CoreCompileInputs.cache
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\StoreAPI.Models.dll
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\refint\StoreAPI.Models.dll
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\StoreAPI.Models.pdb
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\ref\StoreAPI.Models.dll
