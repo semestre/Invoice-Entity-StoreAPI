@@ -3,6 +3,7 @@ using System.Transactions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StoreAPI.Models;
+using StoreAPI.Models.DTOs;
 using StoreAPI.Models.Entities;
 
 namespace StoreAPI.Controllers
@@ -21,10 +22,26 @@ namespace StoreAPI.Controllers
         public async Task<ActionResult<List<Order>>> GetOrders()
         {
             var orders = await _context.Order
-              //  .Include(o => o.SystemUser )
+                .Include(o=>o.SystemUser)
+                .Select(o=> new
+                { 
+                    Id = o.Id,
+                    Total = o.Total,
+                    CreatedAt = o.CreatedAt,
+                    User = new UserDTO()
+                    {
+                        Id = o.SystemUser.Id,
+                        Email = o.SystemUser.Email,
+                        FirstName = o.SystemUser.FirstName,
+                        LastName = o.SystemUser.LastName,
+                    }
+                })
                 .ToListAsync();
+    
+            // _context.Order.FirstOrDefaultAsync(o=>o.Id == id);
             return Ok(orders);
         }
+
 
         
         // ID, Total,UserId

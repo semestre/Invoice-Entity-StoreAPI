@@ -9,3 +9,4 @@ C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\StoreAPI.
 C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\refint\StoreAPI.Models.dll
 C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\StoreAPI.Models.pdb
 C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\ref\StoreAPI.Models.dll
+C:\Users\saray\RiderProjects\StoreAPI\StoreAPI.Models\obj\Debug\net9.0\StoreAPI.Models.sourcelink.json

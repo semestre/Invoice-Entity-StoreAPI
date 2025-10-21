@@ -1,5 +1,5 @@
 namespace StoreAPI.Models.Entities;
-
+// docker compose -f compose.yaml up -d
 public class SystemUser
 {
     public int Id { get; set; }
