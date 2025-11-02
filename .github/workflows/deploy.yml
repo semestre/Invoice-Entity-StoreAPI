@@ -16,12 +16,12 @@ jobs:
         run: docker login -u "${{ secrets.DOCKER_USERNAME }}" -p "${{ secrets.DOCKER_PASSWORD }}"
 
       - name: Build Docker Image
-        run: docker build -t saraymartinez/611-store-api:${{ github.sha }} .
+        run: docker build -t saraymartinez002/611-store-api:${{ github.sha }} .
 
       - name: Tag Latest
-        run: docker tag saraymartinez/611-store-api:${{ github.sha }} saraymartinez/611-store-api:latest
+        run: docker tag saraymartinez002/611-store-api:${{ github.sha }} saraymartinez002/611-store-api:latest
 
       - name: Push Docker Image
         run: |
-          docker push saraymartinez/611-store-api:${{ github.sha }}
-          docker push saraymartinez/611-store-api:latest
+          docker push saraymartinez002/611-store-api:${{ github.sha }}
+          docker push saraymartinez002/611-store-api:latest
