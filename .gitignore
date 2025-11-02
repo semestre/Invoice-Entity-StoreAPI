@@ -1,0 +1,9 @@
+bin/
+obj/
+build/
+*.log
+*.tmp
+*.tar
+*.zip
+*.pdf
+/App/build/
